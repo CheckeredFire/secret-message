@@ -1,0 +1,11 @@
+secret = 'rennid rof ekac dah yraM'
+# a secret code written backwards
+revealed = ''
+# this is left blank for the secret code to be deciphered
+i = len(secret) - 1
+while i >= 0:
+  revealed = revealed + message[i]
+  i = i - 1
+  
+print revealed
+# this last bit of code finishes the process by printing revealed
